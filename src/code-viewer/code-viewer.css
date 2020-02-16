@@ -1,0 +1,44 @@
+.code-viewer-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.code-viewer {
+  padding: 20px;
+  line-height: 1.1em;
+  font-weight: 300;
+
+  background-color: #202020;
+  color: aliceblue;
+}
+
+.keywords {
+  color: #d73a49;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.commentKeyWord {
+  color: #d73a49;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.blockComments {
+  color: #7bf59585;
+  font-style: italic;
+  font-size: 12px;
+  white-space: pre;
+}
+
+.constant {
+  color: #005cc5;
+}
+
+.operator {
+  color: #005cc5;
+}
+
+.strings {
+  color: #f5d67b;
+}
