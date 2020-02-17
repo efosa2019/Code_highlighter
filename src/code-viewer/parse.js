@@ -1,5 +1,5 @@
 const STRINGS_REGEX = /([''])/g;
-const COMPARATORS_REGEX = /([^'='][&=|-]{1,})/g;
+const COMPARATORS_REGEX = /([^'='][=]{2,})/g;
 const BLOCK_COMMENTS_REGEX = /(\/\*.*?\/)/gs;
 const BLOCK_COMMENT_WITH_KEYWORDS_REGEX = /(?:\/\*(?:.*?)(@\w*).*?\/)/gs;
 const CONSTANT_REGEX = /\s([A-Z_-]{2,})/g;
