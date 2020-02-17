@@ -30,12 +30,11 @@
   font-size: 12px;
   white-space: pre;
 }
-
 .constant {
   color: #005cc5;
 }
 
-.operator {
+.comparators {
   color: #005cc5;
 }
 
