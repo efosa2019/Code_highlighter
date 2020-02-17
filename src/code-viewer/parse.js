@@ -7,7 +7,7 @@ const KEYWORDS_REGEX = /var|let|const|import|from|export|return|if|else|for|func
 
 function Parse(text) {
   const commentText = text
-    .replace(COMPARATORS_REGEX, (a) => `<span class="operator">${a}</span>`)
+    .replace(COMPARATORS_REGEX, (a) => `<span class="comparators">${a}</span>`)
     .replace(STRINGS_REGEX, (a) => `<span class="strings">${a}</span>`)
     .replace(
       BLOCK_COMMENTS_REGEX,

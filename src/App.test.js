@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import STRINGS_REGEX from './code-viewer/parse';
-import COMPARATORS_REGEX from './code-viewer/parse';
-import KEYWORDS_REGEX from './code-viewer/parse';
+import STRINGS_REGEX from './code-viewer/Parse';
+import COMPARATORS_REGEX from './code-viewer/Parse';
+import KEYWORDS_REGEX from './code-viewer/Parse';
 import App from './App';
 
 test('renders code viewer', () => {
@@ -27,6 +27,6 @@ test('should output color of block comments ', () => {
   expect(KEYWORDS_REGEX('#7bf59585')).toBe('#7bf59585');
 });
 
-test('block comments font style', () => {
+test('render comments font style', () => {
   expect(KEYWORDS_REGEX('italic')).toBe('italic');
 });
